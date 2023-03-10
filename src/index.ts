@@ -5,3 +5,4 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 const response = await openai.listEngines();
+console.log(response);
