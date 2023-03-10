@@ -1,3 +1,4 @@
+import "./config.ts";
 import { Configuration, OpenAIApi } from "openai";
 const configuration = new Configuration({
   organization: process.env.OPENAI_ORGANISATION,
